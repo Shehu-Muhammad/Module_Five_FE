@@ -6,3 +6,4 @@
 - 1 page with at least one centered html element
 - Responsive on all device types with media queries
 - Comments explaining each css declaration block
+- Published to GitHub
