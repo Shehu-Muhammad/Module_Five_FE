@@ -1,0 +1,64 @@
+/* Desktop */
+/* @media screen and (min-width: 1024px) { */
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-color: black;
+        color: white;
+    }
+    
+    a {
+        color: red;
+    }
+
+    nav {
+        border: 1px solid white;
+        width: 310px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: black;
+    }
+
+    nav ul {
+        list-style: none;
+    }
+
+    nav ul li {
+        display: inline;
+        padding-right: 10px;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: white;
+    }
+
+    div.container {
+        width: 100%;
+        background-color: black;
+    }
+
+/* } */
+
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    body {
+        background-color: green;
+    }
+    a {
+        color: yellow;
+    }
+}
+
+/* Smart Phone */
+@media screen and (max-width: 767px) {
+    body {
+        background-color: blue;
+    }
+    a {
+        color: white;
+    }
+}
