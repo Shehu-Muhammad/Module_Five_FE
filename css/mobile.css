@@ -8,6 +8,10 @@
         background-color: blue;
         color: white;
     }
+    
+    a {
+        color: white;
+    }
 
     nav.main {
         border: 1px solid white;
@@ -38,9 +42,8 @@
     }
 
     div.form {
-        /* width: 560px; */
+        width: 430px;
         margin: 0 auto;
-        padding: 10px;
     }
 
     div#contactWrapper {
@@ -54,7 +57,7 @@
     }
 
     form > input[type=text]:nth-child(3) {
-        /* width: 597px; */
+        width: 95%;
     }
 
     form > input[type=text]:nth-child(1) {
@@ -62,18 +65,18 @@
     }
 
     input[type=text] {
-        /* width: 290px; */
+        width: 45%;
         margin-bottom: 20px;
         height: 40px;
         font-size: 25px;
     }
     
     textarea {
-        width: 10em;
+        width: 31em;
     }
 
     input[type=submit] {
-        /* width: 602px; */
+        width: 98%;
         margin-top: 10px;
         margin-bottom: 20px;
         height: 50px;
@@ -95,7 +98,6 @@
     }
 
     h2.contact {
-        padding-top: 20px;
         font-size: 40px;
     }
 
@@ -114,10 +116,11 @@
 
     iframe {
         border: 5px dashed white;
+        margin-bottom: 30px;
+        width: 410px;
     }
 
     section.attributions {
-        /* width: 500px; */
         margin: 0 auto;
         padding: 30px;
     }
