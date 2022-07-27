@@ -15,7 +15,7 @@
     } */
 
     nav.main {
-        /* border: 1px solid white; */
+        border: 1px solid white;
         width: 400px;
         margin: 0 auto;
         padding: 20px;
@@ -37,6 +37,7 @@
     }
 
     div.navigation {
+        border: 1px solid red;
         width: 100%;
         background-color: black;
     }
@@ -65,6 +66,8 @@
     textarea {
         font-size: 30px;
         padding: 8px;
+        height: 10em;
+        width: 32em;
     }
 
     input[type=submit] {
@@ -166,21 +169,319 @@
 /* } */
 
 /* Tablet */
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 561px) and (max-width: 1024px) {
     body {
-        background-color: green;
+        background-color: blue;
+        color: white;
     }
-    a {
-        color: yellow;
+
+    nav.main {
+        border: 1px solid white;
+        width: 560px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: black;
     }
+
+    nav.main ul {
+        list-style: none;
+    }
+
+    nav.main ul li {
+        display: inline;
+        padding-right: 10px;
+    }
+
+    nav.main ul li a {
+        text-decoration: none;
+        color: white;
+    }
+
+    body > div.navigation {
+        border: 1px solid red;
+        width: 100%;
+        background-color: black;
+    }
+
+    div.form {
+        width: 560px;
+        margin: 0 auto;
+        padding: 10px;
+    }
+
+    form > input[type=text]:nth-child(3) {
+        width: 597px;
+    }
+
+    form > input[type=text]:nth-child(1) {
+        margin-right: 8px;
+    }
+
+    input[type=text] {
+        width: 290px;
+        margin-bottom: 20px;
+        height: 40px;
+        font-size: 25px;
+    }
+    
+    textarea {
+        width: 10em;
+    }
+
+    input[type=submit] {
+        width: 602px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        height: 50px;
+        background-color: black;
+        color: white;
+        font-size: 30px;
+        padding-right: 5px;
+    }
+
+    input[type=submit]:hover {
+        background-color: blue;
+        color: black;
+        cursor: pointer;
+    }
+    
+    input[type=text]::placeholder {
+        padding-left: 20px;
+        font-size: 20px;
+    }
+
+    h2.contact {
+        padding-top: 20px;
+        font-size: 40px;
+    }
+
+    p.contact {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 20px;
+    } 
+    
+    footer, footer.contact {
+        text-align: center;
+        padding: 10px;
+        background-color: black;
+    }
+
+    iframe {
+        border: 5px dashed white;
+    }
+
+    section.attributions {
+        width: 500px;
+        margin: 0 auto;
+        padding: 30px;
+    }
+
+    h1.attributions {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    #myVideo {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+    }
+
+    .content {
+        position: fixed;
+        bottom: 330px;
+        left: 60px;
+        width: 100%;
+      }
+
+      h1.content {
+          font-size: 50px;
+          margin-bottom: 86px;
+      }
+
+      p {
+        font-size: 20px;
+        margin-bottom: 10px;
+      }
+
+      #contactPage {
+          padding: 10px;
+          font-size: 20px;
+          background-color: black;
+          border: 5px solid beige;
+          color: beige;
+          font-weight: bold;
+          letter-spacing: 3px;
+      }
+
+      #contactPage:hover {
+          background-color: beige;
+          border: 5px solid black;
+          color: black;
+          cursor: pointer;
+      }
 }
 
 /* Smart Phone */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 560px) {
     body {
         background-color: blue;
-    }
-    a {
         color: white;
     }
+
+    nav.main {
+        border: 1px solid white;
+        width: 560px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: black;
+    }
+
+    nav.main ul {
+        list-style: none;
+    }
+
+    nav.main ul li {
+        display: inline;
+        padding-right: 10px;
+    }
+
+    nav.main ul li a {
+        text-decoration: none;
+        color: white;
+    }
+
+    body > div.navigation {
+        border: 1px solid red;
+        width: 100%;
+        background-color: black;
+    }
+
+    div.form {
+        width: 560px;
+        margin: 0 auto;
+        padding: 10px;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    form > input[type=text]:nth-child(3) {
+        /* width: 597px; */
+    }
+
+    form > input[type=text]:nth-child(1) {
+        margin-right: 8px;
+    }
+
+    input[type=text] {
+        /* width: 290px; */
+        margin-bottom: 20px;
+        height: 40px;
+        font-size: 25px;
+    }
+    
+    textarea {
+        width: 10em;
+    }
+
+    input[type=submit] {
+        /* width: 602px; */
+        margin-top: 10px;
+        margin-bottom: 20px;
+        height: 50px;
+        background-color: black;
+        color: white;
+        font-size: 30px;
+        padding-right: 5px;
+    }
+
+    input[type=submit]:hover {
+        background-color: blue;
+        color: black;
+        cursor: pointer;
+    }
+    
+    input[type=text]::placeholder {
+        padding-left: 20px;
+        font-size: 20px;
+    }
+
+    h2.contact {
+        padding-top: 20px;
+        font-size: 40px;
+    }
+
+    p.contact {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 20px;
+    } 
+    
+    footer, footer.contact {
+        text-align: center;
+        padding: 10px;
+        background-color: black;
+    }
+
+    iframe {
+        border: 5px dashed white;
+    }
+
+    section.attributions {
+        /* width: 500px; */
+        margin: 0 auto;
+        padding: 30px;
+    }
+
+    h1.attributions {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    #myVideo {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+    }
+
+    .content {
+        position: fixed;
+        bottom: 330px;
+        left: 60px;
+        width: 100%;
+      }
+
+      h1.content {
+          font-size: 50px;
+          margin-bottom: 86px;
+      }
+
+      p {
+        font-size: 20px;
+        margin-bottom: 10px;
+      }
+
+      #contactPage {
+          padding: 10px;
+          font-size: 20px;
+          background-color: black;
+          border: 5px solid beige;
+          color: beige;
+          font-weight: bold;
+          letter-spacing: 3px;
+      }
+
+      #contactPage:hover {
+          background-color: beige;
+          border: 5px solid black;
+          color: black;
+          cursor: pointer;
+      }
 }
