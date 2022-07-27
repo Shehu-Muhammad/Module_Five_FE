@@ -5,30 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-    <div class="container">
-        <nav>
+    <!-- <div class="navigation">
+        <nav class="main">
             <ul>
                 <li>
-                    <a href="#">Home</a>
+                    <a href="index.html">Home</a>
                 </li>
                 <li>
-                    <a href="#">About</a>
+                    <a href="about.html">About</a>
                 </li>
                 <li>
-                    <a href="#">Services</a>
+                    <a href="services.html">Services</a>
                 </li>
                 <li>
-                    <a href="#">Projects</a>
+                    <a href="projects.html">Projects</a>
                 </li>
                 <li>
-                    <a href="#">Contact</a>
+                    <a href="contact.html">Contact</a>
+                </li>
+                <li>
+                    <a href="attributions.html">Attributions</a>
                 </li>
             </ul>
         </nav>
+    </div> -->
+
+    <div class="home">
+        <video autoplay muted loop id="myVideo">
+            <source src="videos/video.mp4" type="video/mp4">
+        </video>
     </div>
+
+    <div class="content">
+        <h1 class="content">Hi, <br>I'm Shehu, <br>Web Developer</h1>
+        <p>Front End Developer | Back End Developer</p>
+        <!-- Use a button to pause/play the video with JavaScript -->
+        <button id="contactPage" onclick="goToContactPage()">Contact Me!</button>
+    </div>
+
+    <script src="js/index.js"></script>
     
 </body>
 </html>
