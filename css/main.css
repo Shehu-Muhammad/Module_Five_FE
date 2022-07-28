@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div.homeContainer {
+    position: relative;
+}
+
+div.homeContent {
+    position: absolute;
+    top: 100px;
+    left: 30px;
+    color: white;
+    font-size: 40px;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+#contactPage {
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: black;
+    border: 5px solid beige;
+    color: beige;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+#contactPage:hover {
+    background-color: beige;
+    border: 5px solid black;
+    color: black;
+    cursor: pointer;
+}
