@@ -18,7 +18,7 @@ if(hamburger != undefined && screen.width > 375) {
     hamburger.style.display = "block";
 }
 
-if(cross != undefined && screen.width > 375) {
+if(cross != undefined) {
     cross.style.display = "none";
 }
 
