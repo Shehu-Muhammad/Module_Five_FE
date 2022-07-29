@@ -367,6 +367,10 @@ footer {
         display: block;
     }
 
+    div#cross {
+        display: block;
+    }
+
     div#hamburger > img {
         width: 45px;
         display: block;
