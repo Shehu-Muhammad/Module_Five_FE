@@ -349,7 +349,7 @@ footer {
         display: block;
         border: 1px solid black;
         border-bottom-left-radius: 30px;
-        z-index: 0;
+        z-index: 1;
     }
 
     ul#pageLinks > li {
