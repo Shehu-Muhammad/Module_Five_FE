@@ -1,3 +1,4 @@
+window.addEventListener('DOMContentLoaded', (event) => {
 const indexPageButton = document.getElementById("contactPage");
 
 if(indexPageButton != undefined) {
@@ -57,6 +58,4 @@ window.addEventListener("resize", (e)=> {
     hideAll();
 });
 
-window.addEventListener('DOMContentLoaded', (event) => {
-    hideAll();
 });
