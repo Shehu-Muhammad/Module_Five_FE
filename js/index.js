@@ -47,6 +47,8 @@ function hideAll() {
     }
 }
 
+hideAll();
+
 window.addEventListener("resize", (e)=> {
     hideAll();
 });
