@@ -60,6 +60,10 @@ nav.main {
     background-color: black;
 }
 
+div#hamburger, div#cross {
+    display: none;
+}
+
 #contactWrapper > div.navigation {
     background-color: black;
     position: fixed;
@@ -336,4 +340,30 @@ footer {
     #contactWrapper > div.form > form > input[type=submit] {
         width: calc(40% * 2 + 35px);
     }
+
+    ul#pageLinks {
+        display: none;
+    }
+
+    div#hamburger > img {
+        width: 45px;
+        display: block;
+    }
+
+    div#cross > img {
+        width: 45px;
+    }
+
+    div#cross {
+        line-height: 4px;
+    }
+
+    nav.main {
+        /* border: 1px solid white; */
+        width: 60px;
+        float: right;
+        padding: 10px;
+        background-color: black;
+    }
+
 }
