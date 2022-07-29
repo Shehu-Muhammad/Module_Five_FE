@@ -206,3 +206,45 @@ footer {
     position: absolute;
     bottom: -100px;
 }
+
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    h2.contact {
+        font-size: 40px;
+        margin-top: 60px;
+    }
+
+    p.contact {
+        text-align: center;
+        font-size: 25px;
+        padding-right: 50px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    footer {
+        margin-left: 25%;
+    }
+
+    #contactWrapper > div.form > form > input[type=text]:nth-child(1) {
+        height: 60px;
+        font-size: 20px;
+    }
+
+    #contactWrapper > div.form > form > input[type=text]:nth-child(2) {
+        height: 60px;
+        font-size: 20px;
+    }
+
+    #contactWrapper > div.form > form > input[type=text]:nth-child(3) {
+        height: 60px;
+        font-size: 20px;
+    }
+
+}
+
+
+/* Iphone 12 */
+/* @media screen and (max-width: 414px) {
+
+} */
