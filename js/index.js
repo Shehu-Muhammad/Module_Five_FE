@@ -12,16 +12,22 @@ const hamburger = document.getElementById("hamburger");
 const cross = document.getElementById("cross");
 const pageLinks = document.getElementById("pageLinks");
 
-if(hamburger != undefined) {
+if(hamburger != undefined && screen.width > 375) {
+    hamburger.style.display = "none";
+} else if (hamburger != undefined && screen.width == 375) {
     hamburger.style.display = "block";
 }
 
-if(cross != undefined) {
+if(cross != undefined && screen.width > 375) {
+    cross.style.display = "none";
+} else if (cross != undefined && screen.width == 375) {
     cross.style.display = "none";
 }
 
-if(pageLinks != undefined) {
+if(pageLinks != undefined && screen.width == 375) {
     pageLinks.style.display = "none";
+} else if (pageLinks != undefined && screen.width > 375) {
+    pageLinks.style.display = "block";
 }
 
 function showNavigationLinks() {
