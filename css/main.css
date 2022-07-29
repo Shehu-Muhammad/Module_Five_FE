@@ -199,6 +199,10 @@ p.contact {
 }
 
 footer {
-    text-align: center;
+    width: 400px;
+    margin-left: 40%;
+    padding-bottom: 10px;
     font-size: 18px;
+    position: absolute;
+    bottom: -100px;
 }
