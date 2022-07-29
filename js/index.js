@@ -20,14 +20,10 @@ if(hamburger != undefined && screen.width > 375) {
 
 if(cross != undefined && screen.width > 375) {
     cross.style.display = "none";
-} else if (cross != undefined && screen.width == 375) {
-    cross.style.display = "none";
 }
 
 if(pageLinks != undefined && screen.width == 375) {
     pageLinks.style.display = "none";
-} else if (pageLinks != undefined && screen.width > 375) {
-    pageLinks.style.display = "block";
 }
 
 function showNavigationLinks() {
