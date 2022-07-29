@@ -247,8 +247,38 @@ footer {
 
 }
 
-
 /* Iphone 12 */
-/* @media screen and (max-width: 414px) {
+@media screen and (max-width: 414px) {
+    div.googleMap {
+        /* border: 1px solid yellow; */
+        width: 50%;
+        position: absolute;
+        top: 60px;
+        left: 49.5%;
+        height: 100%;
+        z-index: -1;
+    }
 
-} */
+    div.homeContent {
+        top: 256px;
+        left: 24px;
+        font-size: 18px;
+    }
+
+    div.homeContainer {
+        position: absolute;
+        top: 100px;
+    }
+
+    p.home {
+        margin-top: 19px;
+    }
+
+    br {
+        line-height: 30px;
+    }
+
+    div.homeContent > h1 {
+        line-height: 45px;
+    }
+}
