@@ -342,7 +342,24 @@ footer {
     }
 
     ul#pageLinks {
+        position: absolute;
+        background-color: black;
+        right: 0;
+        padding: 10px 20px 15px 0;
         display: none;
+        border: 1px solid black;
+        border-bottom-left-radius: 30px;
+    }
+
+    ul#pageLinks > li {
+        display: block;
+        padding-left: 20px;
+        padding-bottom: 10px;
+    }
+
+    ul#pageLinks > li > a {
+        color: white;
+        padding-left: 18px;
     }
 
     div#hamburger > img {
