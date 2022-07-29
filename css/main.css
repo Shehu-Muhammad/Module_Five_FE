@@ -248,7 +248,7 @@ footer {
 }
 
 /* Iphone 12 */
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 375px) {
     div.googleMap {
         /* border: 1px solid yellow; */
         width: 50%;
