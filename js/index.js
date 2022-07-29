@@ -49,6 +49,10 @@ function hideAll() {
     }
 }
 
+hamburger.children[0].addEventListener("click", showNavigationLinks);
+
+cross.children[0].addEventListener("click", showNavigationLinks);
+
 window.addEventListener("resize", (e)=> {
     hideAll();
 });
