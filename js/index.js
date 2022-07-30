@@ -39,11 +39,13 @@ function showNavigationLinks() {
 }
 
 function hideAll() {
-    if(window.innerWidth > 375) {
+    let width = document.getElementsByClassName("navigation")[0].clientWidth;
+    // console.log(document.getElementsByClassName("navigation")[0].clientWidth)
+    if(width > 375) {
         cross.style.display = "none";
         hamburger.style.display = "none";
         pageLinks.style.display = "block";
-    } else if(window.innerWidth <= 375) {
+    } else if(width <= 375) {
         hamburger.style.display = "block";
         cross.style.display = "none";
         pageLinks.style.display = "none";
@@ -60,6 +62,6 @@ if (cross != undefined) {
 
 window.addEventListener("resize", ()=> {
     hideAll();
-    // console.log(window.innerWidth);
+    // console.log(window.screen.width);
 });
 
