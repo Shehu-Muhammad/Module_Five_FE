@@ -1,4 +1,3 @@
-window.addEventListener('DOMContentLoaded', (event) => {
 const indexPageButton = document.getElementById("contactPage");
 
 if(indexPageButton != undefined) {
@@ -50,12 +49,15 @@ function hideAll() {
     }
 }
 
-hamburger.children[0].addEventListener("click", showNavigationLinks);
+if(hamburger != undefined) {
+    hamburger.children[0].addEventListener("click", showNavigationLinks);
+}
 
-cross.children[0].addEventListener("click", showNavigationLinks);
+if (cross != undefined) {
+    cross.children[0].addEventListener("click", showNavigationLinks);
+}
 
 window.addEventListener("resize", (e)=> {
     hideAll();
 });
 
-});
