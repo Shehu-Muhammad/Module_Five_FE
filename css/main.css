@@ -340,22 +340,22 @@ footer {
     #contactWrapper > div.form > form > input[type=submit] {
         width: calc(40% * 2 + 35px);
     }
+    
+    ul#pageLinks > li {
+        display: block;
+        padding-left: 20px;
+        padding-bottom: 10px;
+    }
 
     ul#pageLinks {
         position: absolute;
         background-color: black;
         right: 0;
         padding: 10px 20px 15px 0;
-        display: none;
+        /* display: none; */
         border: 1px solid black;
         border-bottom-left-radius: 30px;
         z-index: 100;
-    }
-
-    ul#pageLinks > li {
-        display: block;
-        padding-left: 20px;
-        padding-bottom: 10px;
     }
 
     ul#pageLinks > li > a {
@@ -364,10 +364,6 @@ footer {
     }
 
     div#hamburger {
-        display: block;
-    }
-
-    div#cross {
         display: block;
     }
 

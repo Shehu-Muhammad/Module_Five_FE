@@ -39,12 +39,13 @@ function showNavigationLinks() {
 }
 
 function hideAll() {
-    if(screen.width > 375) {
+    if(window.innerWidth > 375) {
         cross.style.display = "none";
         hamburger.style.display = "none";
         pageLinks.style.display = "block";
-    } else if(screen.width == 375) {
+    } else if(window.innerWidth <= 375) {
         hamburger.style.display = "block";
+        cross.style.display = "none";
         pageLinks.style.display = "none";
     }
 }
@@ -57,7 +58,8 @@ if (cross != undefined) {
     cross.children[0].addEventListener("click", showNavigationLinks);
 }
 
-window.addEventListener("resize", (e)=> {
+window.addEventListener("resize", ()=> {
     hideAll();
+    // console.log(window.innerWidth);
 });
 
