@@ -4,7 +4,9 @@
 }
 
 body#contact {
-    background-color: #a5d7b2;
+    /* background-color: #a5d7b2; */
+    background-color: #133848;
+    color: white;
 }
 
 body#home {
@@ -209,6 +211,48 @@ footer {
     font-size: 18px;
     position: absolute;
     bottom: -100px;
+}
+
+div#about-photo {
+    margin-top: 70px;
+}
+
+div#about-section {
+    margin-top: 70px;
+    padding: 0 30px 30px 30px;
+    width: 500px;
+    float: right;
+    margin-right: 400px;
+    border: 5px ridge black;
+    border-radius: 30px;
+}
+
+h1#about {
+    padding-top: 75px;
+    padding-bottom: 20px;
+    font-size: 50px;
+    color: white;
+    /* border: 1px solid white; */
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#contactWrapper > div:nth-child(2) > p {
+    font-size: 25px;
+    padding-bottom: 30px;
+    letter-spacing: 2px;    
+}
+
+#contactWrapper > div:nth-child(2) > ul > li {
+    border: 1px solid white;
+    display: inline;
+    text-align: center;
+    border-radius: 90px;
+    padding: 20px;
+    background-color: blue;
+    color: white;
+    float: left;
 }
 
 /* Tablet */
