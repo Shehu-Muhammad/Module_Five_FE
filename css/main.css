@@ -23,6 +23,8 @@ div.homeContent {
     left: 30px;
     color: white;
     font-size: 40px;
+    font-family: fantasy;
+    letter-spacing: 1px;
 }
 
 video {
@@ -32,13 +34,18 @@ video {
 
 #contactPage {
     margin-top: 30px;
-    padding: 10px;
+    padding: 30px 40px 30px 15px;
     font-size: 20px;
-    background-color: black;
-    border: 5px solid beige;
-    color: beige;
+    font-family: fantasy;
+    background-color: beige;
+    color: black;
     font-weight: bold;
     letter-spacing: 3px;
+    clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+}
+
+#contactPage:hover {
+    background-color: green;
 }
 
 #contactPage:hover {
@@ -79,7 +86,20 @@ nav.main ul {
 
 nav.main ul li {
     display: inline;
-    padding-right: 10px;
+    padding-right: 1px;
+    font-family: 'Cormorant SC', serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+nav.main ul li a span:hover {
+    /* color: #9cc0f9; */
+    color: #FFFBFF;
+    font-weight: bold;
+    background-color: #468189;
+    padding: 2px;
+    border: 1px solid #FFFBFF;
+    border-radius: 30px;
 }
 
 nav.main ul li a {
