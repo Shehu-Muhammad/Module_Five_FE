@@ -236,6 +236,12 @@ footer.contact {
     bottom: -100px;
 }
 
+footer.about {
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 300px;
+}
+
 div#about-section {
     width: 100%;
 }
@@ -254,7 +260,7 @@ div#about-section img {
     float: right;
     clear: right;
     margin-top: 30px;
-    margin-right: 200px;
+    margin-right: 140px;
 }
 
 div#about-section-paragraph {
@@ -315,8 +321,14 @@ h1#about {
         margin-bottom: 50px;
     }
 
-    footer {
+    footer.contact {
         margin-left: 25%;
+    }
+
+    footer.about {
+        margin-left: 25%;
+        position: absolute;
+        bottom: -420px;
     }
 
     #contactWrapper > div.form > form > input[type=text]:nth-child(1) {
@@ -336,6 +348,17 @@ h1#about {
     
     div.homeContent {
         top: 450px;
+    }
+
+    #skills {
+        margin-right: 150px;
+        margin-bottom: 30px;
+    }
+
+    div#about-section-paragraph {
+        width: 80%;
+        margin-left: 38px;
+        padding-top: 20px;
     }
 
 }
