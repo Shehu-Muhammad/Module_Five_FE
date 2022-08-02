@@ -242,11 +242,12 @@ div#about-section {
 
 div#about-section img {
     width: 500px;
-    border: 10px solid white;
+    border: 5px dashed black;
     /* border-end-end-radius: 60px; */
     float: right;
     margin-right: 150px;
     margin-top: 40px;
+    border-radius: 50%;
 }
 
 #skills {
