@@ -227,7 +227,7 @@ p.contact {
     font-family: 'Moon Dance', cursive;
 }
 
-footer {
+footer.contact {
     width: 400px;
     margin-left: 40%;
     padding-bottom: 10px;
@@ -297,6 +297,7 @@ h1#about {
     background-color: blue;
     color: white;
     float: left;
+    margin: 10px;
 }
 
 /* Tablet */
@@ -374,7 +375,7 @@ h1#about {
         line-height: 45px;
     }
 
-    footer {
+    footer.contact {
         width: 100px;
         margin-left: 22.5%;
         padding-bottom: 10px;
@@ -382,6 +383,10 @@ h1#about {
         position: absolute;
         bottom: -520px;
     }
+
+    /* footer.about {
+        width: 
+    } */
 
     footer > span {
         padding-left: 30px;
@@ -475,4 +480,42 @@ h1#about {
         background-color: black;
     }
 
+    h1#about {
+        width: 100%;
+    }
+
+    div#about-section img {
+        width: 300px;
+        border: 5px dashed black;
+        border-radius: 50%;
+        margin: 0;
+        margin-right: 30px;
+    }
+
+    #skills {
+        float: none;
+        margin: 0;
+        margin-top: 280px;
+        padding-left: 20px;
+    }
+
+    div#about-section-paragraph {
+        clear: left;
+        width: 80%;
+        margin-left: 0;
+        padding: 30px;
+        font-size: 20px;
+    }
+
+    div#about-section-paragraph p {
+        line-height: 40px;
+    }
+
+    footer.about {
+        /* border: 1px solid white; */
+        width: 320px;
+        position: absolute;
+        bottom: -1300px;
+        margin-left: 7%;
+    }
 }
