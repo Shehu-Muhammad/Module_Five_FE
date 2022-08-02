@@ -236,22 +236,42 @@ footer {
     bottom: -100px;
 }
 
-div#about-photo {
-    margin-top: 70px;
+div#about-section {
+    width: 100%;
 }
 
-div#about-section {
-    margin-top: 70px;
-    padding: 0 30px 30px 30px;
+div#about-section img {
     width: 500px;
+    border: 10px solid white;
+    /* border-end-end-radius: 60px; */
     float: right;
-    margin-right: 400px;
-    border: 5px ridge black;
-    border-radius: 30px;
+    margin-right: 150px;
+    margin-top: 40px;
+}
+
+#skills {
+    float: right;
+    clear: right;
+    margin-top: 30px;
+    margin-right: 200px;
+}
+
+div#about-section-paragraph {
+    clear: left;
+    width: 50%;
+    margin-left: 60px;
+    padding: 30px;
+    font-size: 25px;
+    /* border: 1px solid white; */
+}
+
+div#about-section-paragraph p{
+    padding-bottom: 30px;
+    text-indent: 50px;
 }
 
 h1#about {
-    padding-top: 75px;
+    padding-top: 90px;
     padding-bottom: 20px;
     font-size: 50px;
     color: white;
