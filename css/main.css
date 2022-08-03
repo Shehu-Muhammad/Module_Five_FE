@@ -1,14 +1,17 @@
+/* removed all margin and padding from html */
 * {
     margin: 0;
     padding: 0;
 }
 
+/* changed background color of body and text color for contact page */
 body#contact {
     /* background-color: #a5d7b2; */
     background-color: #133848;
     color: white;
 }
 
+/* changed background color of body on home page */
 body#home {
     background-color: #010808;
 }
@@ -17,6 +20,7 @@ div.homeContainer {
     position: relative;
 }
 
+/* styled div with class of homeContent */
 div.homeContent {
     position: absolute;
     top: 100px;
@@ -27,11 +31,13 @@ div.homeContent {
     letter-spacing: 1px;
 }
 
+/* styled video tag */
 video {
     width: 100%;
     height: auto;
 }
 
+/* styled id contactPage */
 #contactPage {
     margin-top: 30px;
     padding: 30px 40px 30px 15px;
@@ -39,28 +45,26 @@ video {
     font-family:'Courier New', Courier, monospace;
     background-color: beige;
     color: black;
-    font-weight: bold;;
+    font-weight: bold;
     letter-spacing: 3px;
     clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
 }
 
+/* changed style on hover for id contactPage */
 #contactPage:hover {
-    background-color: green;
-}
-
-#contactPage:hover {
-    background-color: beige;
-    border: 5px solid black;
-    color: black;
+    background-color: black;
+    color: beige;
     cursor: pointer;
 }
 
+/* changed width and height for div with id contactWrapper */
 div#contactWrapper {
     width: 99.5%;
     height: 660px;
     /* border: 2px solid red; */
 }
 
+/* style navigation with class main */
 nav.main {
     /* border: 1px solid white; */
     width: 400px;
@@ -69,10 +73,12 @@ nav.main {
     background-color: black;
 }
 
+/* hides hamburger and cross icons */
 div#hamburger, div#cross {
     display: none;
 }
 
+/* creates fixed navigation bar */
 #contactWrapper > div.navigation {
     background-color: black;
     position: fixed;
@@ -80,10 +86,12 @@ div#hamburger, div#cross {
     /* border: 1px solid blue; */
 }
 
+/* removes bullet points from unordered list */
 nav.main ul {
     list-style: none;
 }
 
+/* styles list items on navigation bar */
 nav.main ul li {
     display: inline;
     padding-right: 1px;
@@ -92,6 +100,7 @@ nav.main ul li {
     letter-spacing: 1px;
 }
 
+/* styles navigation bar on hover */
 nav.main ul li a span:hover {
     /* color: #9cc0f9; */
     color: #FFFBFF;
@@ -102,11 +111,13 @@ nav.main ul li a span:hover {
     border-radius: 30px;
 }
 
+/* styled all anchor  */
 nav.main ul li a {
     text-decoration: none;
     color: white;
 }
 
+/* made navigation bar the top element using z-index so that it takes priority when scrolling over elements */
 div.navigation {
     /* border: 1px solid red; */
     width: 100%;
@@ -114,6 +125,7 @@ div.navigation {
     z-index: 1;
 }
 
+/* styled div with class form */
 div.form {
     width: 49.5%;
     /* border: 1px solid green; */
@@ -123,10 +135,12 @@ div.form {
     z-index: 0;
 }
 
+/* used to position form */
 /* form {
     border: 1px solid black;
 } */
 
+/* styled div with googleMap class */
 div.googleMap {
     /* border: 1px solid yellow; */
     width: 50%;
@@ -137,26 +151,32 @@ div.googleMap {
     z-index: 0;
 }
 
+/* adding some left padding to form */
 #contactWrapper > div.form > form {
     padding-left: 30px;
 }
 
+/* removed border from input[type=text] elements */
 #contactWrapper > div.form > form > input[type=text] {
     border: none;
 }
 
+/* styled placeholder for first input */
 #contactWrapper > div.form > form > input[type=text]:nth-child(1)::placeholder {
     padding-left: 15px;
 }
 
+/* styled placeholder for second input */
 #contactWrapper > div.form > form > input[type=text]:nth-child(2)::placeholder {
     padding-left: 15px;
 }
 
+/* styled placeholder for third input */
 #contactWrapper > div.form > form > input[type=text]:nth-child(3)::placeholder {
     padding-left: 15px;
 }
 
+/* styled first input on form */
 #contactWrapper > div.form > form > input[type=text]:nth-child(1) {
     width: 40%;
     height: 40px;
@@ -164,12 +184,14 @@ div.googleMap {
     margin-bottom: 15px;
 }
 
+/* styled second input on form */
 #contactWrapper > div.form > form > input[type=text]:nth-child(2) {
     width: 40%;
     height: 40px;
     margin-bottom: 15px;
 } 
 
+/* styled third input on form */
 #contactWrapper > div.form > form > input[type=text]:nth-child(3) {
     display: block;
     /* width: 81.5%; */
@@ -178,6 +200,7 @@ div.googleMap {
     margin-bottom: 15px;
 }
 
+/* styled submit button on form */
 #contactWrapper > div.form > form > input[type=submit] {
     /* width: 85%; */
     width: calc(40% * 2 + 14px);
@@ -190,12 +213,14 @@ div.googleMap {
     border-radius: 60px;
 }
 
+/* styled submit button on hover */
 #contactWrapper > div.form > form > input[type=submit]:hover {
     background-color: #468189;
     color: beige;
     cursor: pointer;
 }
 
+/* styled text area element */
 textarea {
     /* width: 16.125em; */
     width: calc(40% * 2 + 14px);
@@ -204,15 +229,18 @@ textarea {
     margin-bottom: 10px;
 }
 
+/* styled placeholder for text area */
 textarea::placeholder {
     padding-left: 15px;
 }
 
+/* styled iframe */
 iframe {
     width: 100%;
     height: 100%;
 }
 
+/* styled h2 elements with contact class */
 h2.contact {
     font-size: 50px;
     text-align: center;
@@ -220,6 +248,7 @@ h2.contact {
     font-family: 'Moon Dance', cursive;
 }
 
+/* styled p elements with contact class */
 p.contact {
     padding: 10px 30px 15px 30px;
     text-align: justify;
@@ -227,6 +256,7 @@ p.contact {
     font-family: 'Moon Dance', cursive;
 }
 
+/* styled footer with contact class */
 footer.contact {
     width: 400px;
     margin-left: 40%;
@@ -236,16 +266,19 @@ footer.contact {
     bottom: -100px;
 }
 
+/* styled footer with about class */
 footer.about {
     width: 400px;
     margin: 0 auto;
     margin-top: 300px;
 }
 
+/* styled div with id about-section */
 div#about-section {
     width: 100%;
 }
 
+/* styled img inside of div with id about-section */
 div#about-section img {
     width: 500px;
     border: 5px dashed black;
@@ -256,6 +289,7 @@ div#about-section img {
     border-radius: 50%;
 }
 
+/* styled id with skills */
 #skills {
     float: right;
     clear: right;
@@ -263,6 +297,7 @@ div#about-section img {
     margin-right: 140px;
 }
 
+/* styled div with id about-section-paragraph */
 div#about-section-paragraph {
     clear: left;
     width: 50%;
@@ -272,11 +307,13 @@ div#about-section-paragraph {
     /* border: 1px solid white; */
 }
 
+/* styled p inside of div with id about-section-paragraph */
 div#about-section-paragraph p{
     padding-bottom: 30px;
     text-indent: 50px;
 }
 
+/* styled h1 with id about */
 h1#about {
     padding-top: 90px;
     padding-bottom: 20px;
@@ -288,12 +325,14 @@ h1#about {
     margin: 0 auto;
 }
 
+/* styled  2nd child p inside of id contactWrapper and inside of div */
 #contactWrapper > div:nth-child(2) > p {
     font-size: 25px;
     padding-bottom: 30px;
     letter-spacing: 2px;    
 }
 
+/* styled 2nd li inside of id contactWrapper and inside of div */
 #contactWrapper > div:nth-child(2) > ul > li {
     border: 1px solid white;
     display: inline;
