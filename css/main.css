@@ -4,6 +4,14 @@
     padding: 0;
 }
 
+div.w3-container > .w3-animate-top, div.w3-container > .w3-animate-bottom, div.w3-container > .w3-animate-left {
+    animation-duration: 3s;
+}
+
+div.w3-container > .w3-animate-opacity {
+    animation-duration: 5s;
+}
+
 /* changed background color of body and text color for contact page */
 body#contact {
     /* background-color: #a5d7b2; */
