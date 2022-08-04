@@ -40,7 +40,7 @@ function showNavigationLinks() {
 
 function hideAll() {
     let width = document.getElementsByClassName("navigation")[0].clientWidth;
-    console.log(document.getElementsByClassName("navigation")[0].clientWidth)
+    // console.log(document.getElementsByClassName("navigation")[0].clientWidth);
     if(width > 375) {
         cross.style.display = "none";
         hamburger.style.display = "none";
