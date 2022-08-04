@@ -4,10 +4,12 @@
     padding: 0;
 }
 
+/* changed animation duration for w3 animations to 3 seconds */
 div.w3-container > .w3-animate-top, div.w3-container > .w3-animate-bottom, div.w3-container > .w3-animate-left {
     animation-duration: 3s;
 }
 
+/* changed animation duration for w3 animations to 5 seconds */
 div.w3-container > .w3-animate-opacity {
     animation-duration: 5s;
 }
