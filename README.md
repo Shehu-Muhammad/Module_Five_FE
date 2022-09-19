@@ -7,6 +7,7 @@
 - Responsive on all device types with media queries
 - Comments explaining each css declaration block
 - Published to GitHub
+## Personal Portfolio
 ## Screenshots
 ## Built with
 * [HTML5](https://webplatform.github.io/docs/html/html5/) - The language used to create the content
