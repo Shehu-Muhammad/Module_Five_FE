@@ -283,6 +283,28 @@ footer.about {
     margin-top: 300px;
 }
 
+/* styled footer for projects page */
+footer#projects {
+    width:400px;
+    position: absolute;
+    bottom: 20px;
+    left: 40%;
+}
+
+div#projectLinks{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+p.hideInfo{
+    display: none;
+}
+
+button {
+    display: block;
+}
+
 /* styled div with id about-section */
 div#about-section {
     width: 100%;
@@ -380,6 +402,10 @@ h1#about {
         bottom: -420px;
     }
 
+    footer#projects {
+        left:30%;
+    }
+
     #contactWrapper > div.form > form > input[type=text]:nth-child(1) {
         height: 60px;
         font-size: 20px;
@@ -456,9 +482,9 @@ h1#about {
         bottom: -520px;
     }
 
-    /* footer.about {
-        width: 
-    } */
+    footer#projects {
+        left: 12%;
+    }
 
     footer > span {
         padding-left: 30px;

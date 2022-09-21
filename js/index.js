@@ -50,7 +50,7 @@ function hideAll() {
         cross.style.display = "none";
         pageLinks.style.display = "none";
     }
-    console.log(document.getElementsByClassName("navigation")[0].clientWidth)
+    // console.log(document.getElementsByClassName("navigation")[0].clientWidth)
 }
 
 if(hamburger != undefined) {
@@ -65,4 +65,26 @@ window.addEventListener("resize", ()=> {
     hideAll();
     // console.log(window.screen.width);
 });
+
+let btns = document.querySelectorAll("button");
+btns.forEach(btn => {
+    btn.addEventListener("click", e => {
+        showMoreInfo(e);
+    });
+});
+
+function showMoreInfo(e) {
+    let btnSelected = e.target.id;
+    let paragraph = document.querySelector(`.${btnSelected}`);
+    let button = document.querySelector(`#${btnSelected}`);
+    if(paragraph.classList.contains("hideInfo")){
+        paragraph.classList.remove("hideInfo");
+        button.textContent = "Show Less Info";
+    } else {
+        paragraph.classList.add("hideInfo");
+        button.textContent = "Show More Info";
+    }
+}
+
+
 
