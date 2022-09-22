@@ -281,13 +281,13 @@ footer.about {
     width: 400px;
     margin: 0 auto;
     margin-top: 300px;
+    bottom: -150px;
 }
 
 /* styled footer for projects page */
 footer#projects {
     width:400px;
     position: absolute;
-    bottom: 20px;
     left: 40%;
     display: block;
 }
@@ -298,12 +298,29 @@ div#projectLinks{
     left: 100px;
 }
 
+div#footer {
+    position: fixed;
+    bottom: 50px;
+    left: 40%;
+}
+
 p.hideInfo{
     display: none;
 }
 
-button {
+#btn1, #btn2, #btn3, #btn4, #btn5, #btn6, #btn7, #btn8, #btn9, #btn10 {
     display: block;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    letter-spacing: 3px;
+}
+
+#btn1:hover, #btn2:hover, #btn3:hover, #btn4:hover, #btn5:hover, #btn6:hover, #btn7:hover, #btn8:hover, #btn9:hover, #btn10:hover {
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
 }
 
 /* styled div with id about-section */
@@ -403,7 +420,7 @@ h1#about {
         bottom: -420px;
     }
 
-    footer#projects {
+    footer#projects, div#footer {
         left:30%;
     }
 
@@ -483,7 +500,7 @@ h1#about {
         bottom: -520px;
     }
 
-    footer#projects {
+    footer#projects, div#footer {
         left: 12%;
     }
 
